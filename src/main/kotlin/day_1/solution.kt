@@ -4,6 +4,7 @@ import java.io.File
 
 fun main(args: Array<String>) {
     System.out.println(getFoodList().max())
+    System.out.println(getFoodList().sortedArrayDescending().filterIndexed { index, i -> index < 3 }.sum())
 }
 
 fun getFoodList(): IntArray {
