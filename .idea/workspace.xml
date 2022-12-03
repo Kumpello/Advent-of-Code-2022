@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="56977b24-45cf-41fd-8f9d-8daaf9964b20" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day_2/solution.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/day_2/input" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day_1/firstTask.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day_1/solution.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +70,9 @@
       <option name="presentableId" value="Default" />
       <updated>1669832406630</updated>
       <workItem from="1669832408351" duration="1226000" />
-      <workItem from="1669880649353" duration="3572000" />
+      <workItem from="1669880649353" duration="3805000" />
+      <workItem from="1669965303945" duration="4942000" />
+      <workItem from="1670058382228" duration="360000" />
     </task>
     <servers />
   </component>
