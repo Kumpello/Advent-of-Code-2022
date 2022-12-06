@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="56977b24-45cf-41fd-8f9d-8daaf9964b20" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day_5/solution.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day_6/solution.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +46,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "go.import.settings.migrated": "true",
-    "last_opened_file_path": "/home/kumpel/IdeaProjects/Advent_of_Code_2022/src/main/kotlin/day_5",
+    "last_opened_file_path": "/home/kumpel/IdeaProjects/Advent_of_Code_2022/src/main/kotlin/day_6",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -57,6 +57,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/kotlin/day_6" />
       <recent name="$PROJECT_DIR$/src/main/kotlin/day_5" />
       <recent name="$PROJECT_DIR$/src/main/kotlin/day_4" />
       <recent name="$PROJECT_DIR$/src/main/kotlin/day_3" />
@@ -79,7 +80,10 @@
       <workItem from="1670058382228" duration="5790000" />
       <workItem from="1670073456916" duration="41000" />
       <workItem from="1670158853194" duration="3122000" />
-      <workItem from="1670228472739" duration="14203000" />
+      <workItem from="1670228472739" duration="14855000" />
+      <workItem from="1670261919609" duration="1000" />
+      <workItem from="1670262065621" duration="16000" />
+      <workItem from="1670311805070" duration="2623000" />
     </task>
     <servers />
   </component>
