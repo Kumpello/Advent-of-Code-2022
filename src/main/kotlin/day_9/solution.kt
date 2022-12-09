@@ -33,7 +33,7 @@ fun getTailLocationsNumber(): Int {
                     tail.y--
                 }
             }
-            locationList.add(tail.copy())
+            locationList.add(tail)
             when(values[0].toCharArray()[0]) {
                 'L' -> {
                     head.x--
