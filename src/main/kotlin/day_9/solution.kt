@@ -12,54 +12,47 @@ fun main(args: Array<String>) {
 
 fun getTailLocationsNumber(): Int {
     val lines = readFileAsLinesUsingUseLines(fileName)
-    val tailLocations: Array<Array<Boolean>> = Array(10000) { Array(10000) { false } }
-    var iHead = 5000
-    var jHead = 5000
-    var iTail = 5000
-    var jTail = 5000
+    var head = Position(0,0)
+    var tail = Position(0,0)
+    val locationList: MutableSet<Position> = mutableSetOf()
+
     lines.forEach { line ->
         var values = line.split(' ')
         for (i in 0 until values[1].toInt()) {
-            if (max(abs(iTail - iHead), abs(jTail - jHead)) > 1) {
-                if (iHead > iTail) {
-                    iTail++
+            if (max(abs(tail.x - head.x), abs(tail.y - head.y)) > 1) {
+                if (head.x > tail.x) {
+                    tail.x++
                 }
-                if (iHead < iTail) {
-                    iTail--
+                if (head.x < tail.x) {
+                    tail.x--
                 }
-                if (jHead > jTail) {
-                    jTail++
+                if (head.y > tail.y) {
+                    tail.y++
                 }
-                if (jHead < jTail) {
-                    jTail--
+                if (head.y < tail.y) {
+                    tail.y--
                 }
             }
-            tailLocations[iTail][jTail] = true
+            locationList.add(tail.copy())
             when(values[0].toCharArray()[0]) {
                 'L' -> {
-                    iHead--
+                    head.x--
                 }
                 'R' -> {
-                    iHead++
+                    head.x++
                 }
                 'D' -> {
-                    jHead++
+                    head.y--
                 }
                 'U' -> {
-                    jHead--
+                    head.y++
                 }
             }
         }
     }
-    return countAllFields(tailLocations)
+    return locationList.size
 }
 
-fun countAllFields(tailLocations: Array<Array<Boolean>>): Int {
-    var size = 0
-    tailLocations.forEach { row ->
-        row.forEach { if(it) size++ }
-    }
-    return size
-}
+data class Position(var x:Int, var y: Int)
 
 fun readFileAsLinesUsingUseLines(fileName: String): List<String> = File(fileName).useLines { it.toList() }
