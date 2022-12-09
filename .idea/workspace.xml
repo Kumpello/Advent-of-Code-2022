@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="56977b24-45cf-41fd-8f9d-8daaf9964b20" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/day_9/solution.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day_9/solution.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -151,11 +150,6 @@
           <url>file://$PROJECT_DIR$/src/main/kotlin/day_8/solution.kt</url>
           <line>103</line>
           <option name="timeStamp" value="19" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/day_9/solution.kt</url>
-          <line>35</line>
-          <option name="timeStamp" value="27" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

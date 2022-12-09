@@ -19,6 +19,20 @@ fun getTailLocationsNumber(): Int {
     lines.forEach { line ->
         var values = line.split(' ')
         for (i in 0 until values[1].toInt()) {
+            when(values[0].toCharArray()[0]) {
+                'L' -> {
+                    head.x--
+                }
+                'R' -> {
+                    head.x++
+                }
+                'D' -> {
+                    head.y--
+                }
+                'U' -> {
+                    head.y++
+                }
+            }
             if (max(abs(tail.x - head.x), abs(tail.y - head.y)) > 1) {
                 if (head.x > tail.x) {
                     tail.x++
@@ -34,20 +48,6 @@ fun getTailLocationsNumber(): Int {
                 }
             }
             locationList.add(tail.copy())
-            when(values[0].toCharArray()[0]) {
-                'L' -> {
-                    head.x--
-                }
-                'R' -> {
-                    head.x++
-                }
-                'D' -> {
-                    head.y--
-                }
-                'U' -> {
-                    head.y++
-                }
-            }
         }
     }
     return locationList.size
