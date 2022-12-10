@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="56977b24-45cf-41fd-8f9d-8daaf9964b20" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day_9/solution.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day_9/solution.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day_10/solution.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/day_10/testInput" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +47,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "go.import.settings.migrated": "true",
-    "last_opened_file_path": "/home/kumpel/IdeaProjects/Advent_of_Code_2022/src/main/resources/day_9",
+    "last_opened_file_path": "/home/kumpel/IdeaProjects/Advent_of_Code_2022/src/main/resources/day_10",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -56,11 +58,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/day_10" />
+      <recent name="$PROJECT_DIR$/src/main/kotlin/day_10" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$/src/main/resources/day_9" />
       <recent name="$PROJECT_DIR$/src/main/kotlin/day_9" />
-      <recent name="$PROJECT_DIR$/src/main/kotlin/day_8" />
-      <recent name="$PROJECT_DIR$/src/main/kotlin/day_7" />
-      <recent name="$PROJECT_DIR$/src/main/kotlin/day_6" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources/day_1" />
@@ -90,6 +92,7 @@
       <workItem from="1670446930689" duration="10000" />
       <workItem from="1670483883194" duration="15666000" />
       <workItem from="1670567954995" duration="9701000" />
+      <workItem from="1670670502626" duration="8273000" />
     </task>
     <servers />
   </component>
@@ -150,6 +153,11 @@
           <url>file://$PROJECT_DIR$/src/main/kotlin/day_8/solution.kt</url>
           <line>103</line>
           <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/day_10/solution.kt</url>
+          <line>30</line>
+          <option name="timeStamp" value="25" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
